@@ -1,0 +1,68 @@
+.main {
+    background-image: url(./images/codexBackground.jpg);
+    background-size: 100% 100%;
+    height: 100vh;
+}
+
+#homePic {
+    width: 9vw;
+    height: 18.75vh;
+    position: absolute;
+    left: 30vw;
+    top: 5vh;
+}
+
+#aboutPic {
+    width: 9vw;
+    height: 18.75vh;
+    position: absolute;
+    left: 60vw;
+    top: 5vh;
+}
+
+#wikiPic {
+    width: 9vw;
+    height: 26vh;
+    position: absolute;
+    left: 31vw;
+    top: 34.5vh;
+}
+
+#modOnePic {
+    width: 9vw;
+    height: 26vh;
+    position: absolute;
+    left: 50vw;
+    top: 34.5vh;
+}
+
+#modTwoPic {
+    width: 9vw;
+    height: 26vh;
+    position: absolute;
+    left: 62vw;
+    top: 34.5vh;
+}
+
+#modThreePic {
+    width: 9vw;
+    height: 26vh;
+    position: absolute;
+    left: 73vw;
+    top: 34.5vh;
+}
+#modFourPic {
+    width: 9vw;
+    height: 25vh;
+    position: absolute;
+    left: 50vw;
+    top: 69vh;
+}
+
+#modFivePic {
+    width: 9vw;
+    height: 25vh;
+    position: absolute;
+    left: 78vw;
+    top: 69vh;
+}
