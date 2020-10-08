@@ -11,3 +11,11 @@ textarea {
     width: 450px;
     height: 371px;
 }
+
+#pdf-main-container {
+    position: absolute;
+    left: 54vw;
+    top: 27vh;
+    width: 450px;
+    height: 371px;
+}
