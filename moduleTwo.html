@@ -36,8 +36,8 @@
     </div>
     <script>
     var _PDF_DOC,
-        _CURRENT_PAGE,
-        _TOTAL_PAGES,
+        _CURRENT_PAGE = 1,
+        _TOTAL_PAGES = 3,
         _PAGE_RENDERING_IN_PROGRESS = 0,
         _CANVAS = document.querySelector('#pdf-canvas');
 
@@ -47,7 +47,7 @@
 
             // get handle of pdf document
             try {
-                _PDF_DOC = await pdfjsLib.getDocument({ url: "https://jessealdana.github.io/pyramid-schema/images/LAIS.pdf" });
+                _PDF_DOC = await pdfjsLib.getDocument({ url: "https://jessealdana.github.io/pdf.js/pyramid-schema/images/LAIS.pdf" });
             }
             catch(error) {
                 alert(error.message);
@@ -132,7 +132,7 @@
         // click on "Show PDF" buuton
         document.querySelector("#show-pdf-button").addEventListener('click', function() {
             this.style.display = 'none';
-            showPDF('https://mozilla.github.io/pdf.js/web/compressed.tracemonkey-pldi-09.pdf');
+            showPDF('https://jessealdana.github.io/pdf.js/pyramid-schema/images/LAIS.pdf');
         });
 
         // click on the "Previous" page button
